@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Primera Pagína</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' href='styles.css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	
+</head>
+<body>
+  
+  <section class="formulario">
+    <style>
+      body {
+        background-image: url('fondo.jpg');
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      </style>   
+    <h1>Formulario de Inscripcion</h1>
+  <h4>Informacion Personal:</h4>
+  <form class="form" id="formulario">
+  Nombre:<input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+  
+  Apellido:<input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+  Fecha de Nacimiento:<input class="controls" type="date" name="fechaNacimiento" min="1900-01-01" max="2022-06-15" id="fechaNacimiento"> <br>
+  <b>Tu edad es</b><b id="edad">0</b><b>Años</b>
+  <br><br>
+    <input type="radio" name="Sexo" value="Masculino" id="sexo" > Masculino <br>
+    <input type="radio" name="Sexo" value="Femenino" id="sexo"> Femenino <br>
+    <input type="radio" name="Sexo" value="Otro" id="sexo"> Otro <br>  
+  
+  <h4>Informacion Personal adicional:</h4>
+  <input class="controls" type="text" name="empresas" id="empresas" placeholder="Ingrese su Empresa">
+  <input class="butons" type="submit" value="Cargar Datos">
+</form>
+</section>
+      
+    
+    <script type="text/javascript" src="jqueryScript.js"></script>
+</body>
+</html>
